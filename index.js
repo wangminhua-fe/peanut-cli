@@ -11,20 +11,25 @@ const chalk = require('chalk');
 const logSymbols = require('log-symbols');
 
 const templates = {
-  'simple': {
-    url: 'https://github.com/KernelOfMarshall/template-simple.git',
-    downloadUrl: 'http://github.com:KernelOfMarshall/template-simple#master',
+  'base': {
+    url: 'https://github.com/peanut-dev/peanut-template-vue-base.git',
+    downloadUrl: 'http://github.com:peanut-dev/peanut-template-vue-base#master',
     description: '基础模板'
   },
-  'ms': {
-    url: 'https://github.com/KernelOfMarshall/template-ms.git',
-    downloadUrl: 'http://github.com:KernelOfMarshall/template-ms#master',
+  'admin': {
+    url: 'https://github.com/peanut-dev/peanut-template-vue-admin.git',
+    downloadUrl: 'http://github.com:peanut-dev/peanut-template-vue-admin#master',
     description: '后台管理系统模板'
   },
   'mobile': {
-    url: 'https://github.com/KernelOfMarshall/template-mobile.git',
-    downloadUrl: 'http://github.com:KernelOfMarshall/template-mobile#master',
+    url: 'https://github.com/peanut-dev/peanut-template-vue-mobile.git',
+    downloadUrl: 'http://github.com:peanut-dev/peanut-template-vue-mobile#master',
     description: '移动端模板'
+  },
+  'datav': {
+    url: 'https://github.com/peanut-dev/peanut-template-vue-datav.git',
+    downloadUrl: 'http://github.com:peanut-dev/peanut-template-vue-datav#master',
+    description: '大屏模板'
   }
 };
 
